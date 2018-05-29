@@ -1,3 +1,7 @@
+
+
+
+
 hw {
  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
  font-size: 80px;
@@ -139,7 +143,7 @@ header {
 #contact {
 	background: #151515;
 	padding-top: 2rem;
-	padding-bottom: 7.2rem;
+	padding-bottom: 0.1rem;
 }
 #contact .section-intro h1 {
 	color: white;
@@ -210,8 +214,8 @@ padding-left: 33.3333%;
   align-content: center;
   align-items: center;
 
-  margin-bottom: -80px;
-  padding-top: 200px;
+  margin-bottom: 0px;
+  padding-top: 100px;
 }
 .head2 {
   font-family: 'Assistant',sans-serif;
@@ -252,7 +256,7 @@ padding-left: 33.3333%;
 }
 
 #about {
-	background: #FFFFFF;
+		background-image: url("bac.png");
 	font-family: 'Assistant',sans-serif;
 	padding-top: 3rem;
 	padding-bottom: 0px;
@@ -265,7 +269,7 @@ padding-left: 33.3333%;
 	text-align-last: center;
 	font-family: 'Rancho', sans-serif;
 	font-size: 2.6rem;
-	color: #313131;
+	color: white;
 	margin-bottom: 1.2rem;
 	padding-left: 16rem;
 	padding-right: 13rem;
@@ -291,22 +295,23 @@ padding-left: 33.3333%;
 	height: 10rem;
 	width: 10rem;
 	border-radius: 60%;
-	margin: -.9rem 0 0 13rem;
+	margin: -3rem 0 0 5rem;
 	float: left;
 }
 .intro-info .lead {
 	text-align: left;
 	font-family: 'Rancho',serif;
-	color: #000099;
+	color: DodgerBlue;
 	line-height: 1.4;
 	font-size: 1.5rem;
-	padding-left: 25rem;
+	padding-left: 20rem;
 	padding-bottom: 80px;
 	margin-right: 5rem;
 }
 
 .col-twelve,
 .col-full {
+  font-family: 'Rancho',serif;
 	width: 100%;
 }
 
@@ -319,11 +324,12 @@ ul {
 }
 .info-list strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #DC143C;
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 3rem;
+  padding-left: 0rem;
 
 }
 .info-list h3{
@@ -332,7 +338,7 @@ ul {
 	color: #500000;
 	line-height: 1.4;
 	font-size: 1.5rem;
-	padding-left: 13rem;
+	padding-left: 3rem;
 
 
 
@@ -351,7 +357,7 @@ ul {
 	color: DodgerBlue;
 	font-size: 1.2rem;
 	line-height: 1.5rem;
-	padding-left: 13rem;
+	padding-left: 3rem;
 }
 
 .button-section {
@@ -365,7 +371,7 @@ ul {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
     width: 150px;
     margin-bottom: 50px;
 
@@ -494,7 +500,7 @@ footer .color {
 	}
 	.info-list span{
 		margin-top: 20px;
-		padding-left: 20px;
+		padding-left: 10px;
 		padding-right: 40px;
 		text-align-last: left;
 		padding-right: 20px;
